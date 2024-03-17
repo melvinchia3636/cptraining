@@ -5,11 +5,11 @@ import Problem from './Problem'
 
 function App(): React.ReactElement {
   return (
-    <main className="w-full min-h-[100dvh] flex flex-col p-32 gap-8 bg-zinc-200 text-zinc-700">
+    <main className="w-full min-h-[100dvh] flex flex-col p-32 gap-8 bg-zinc-100 text-zinc-700">
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/problem" element={<Problem />} />
+          <Route path="/problem/:id" element={<Problem />} />
         </Routes>
       </Router>
     </main>

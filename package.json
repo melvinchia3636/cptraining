@@ -10,14 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.18",
     "@iconify/react": "^4.1.1",
     "@tailwindcss/typography": "^0.5.10",
     "@types/react-latex": "^2.0.3",
     "autoprefixer": "^10.4.18",
+    "firebase": "^10.9.0",
     "katex": "^0.16.9",
     "postcss": "^8.4.35",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-firebase-hooks": "^5.1.1",
     "react-latex": "^2.0.0",
     "react-markdown": "^9.0.1",
     "react-router": "^6.22.3",
